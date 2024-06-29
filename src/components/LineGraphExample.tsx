@@ -124,7 +124,6 @@ const LineGraph = () => {
     padding: "0.5rem",
     margin: "1rem auto",
   };
-
   return (
     <div style={graphStyle}>
       <Line options={options} data={data} />

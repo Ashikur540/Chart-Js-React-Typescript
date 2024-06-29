@@ -1,3 +1,4 @@
+import LineChartExample2 from "./components/LineChartExample2";
 import LineGraph from "./components/LineGraphExample";
 import PieChart from "./components/PieChart";
 
@@ -7,6 +8,7 @@ const App = () => {
     <div style={{ margin: "0 auto" }}>
       <LineGraph />
       <PieChart />
+      <LineChartExample2 />
     </div>
   );
 };
